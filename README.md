@@ -2,10 +2,7 @@
 
 Steps to grant or revoke access to a user
 1. Copy the grantaccess.sh, revokeaccess.sh, hosts.txt and Start.sh files to a linux machine. All the files need to be in the same path.
-2. Edit the hosts.txt file and enter the list of hosts and admin users for each of the machines.
-Example
-52.18.26.11,localadmin
-52.19.18.78,localadmin
+2. Edit the hosts.txt file and enter the list of hosts and admin users for each of the machines. Refer hosts.txt file for example
 3. Run the following command - sh Start.sh
 4. Enter g or r based on the Action that you would like to perform.
 5. Enter a username and password for the user that you would like to grant/revoke access when prompted.
